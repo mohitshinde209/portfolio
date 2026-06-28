@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mohit Shinde Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <!-- Added class "brand-name" to the logo + name container -->
+            <a class="navbar-brand d-flex align-items-center bi bi-stars brand-name" href="#">
+                <span class="fw-bold">Mohit Shinde</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#qualification">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="hero text-center mt-5">
+        <div class="container">
+            <h1>Hi, I'm <span class="text-info ">Mohit Shinde</span></h1>
+            <h4>Student of Diploma in Computer Engineering</h4>
+            <p>Web Developer | C programmer | Front End Developer</p>
+
+            <img src="Images/Mohit Formal.png" class="profile-img mt-3" alt="Profile">
+        </div>
+        <div class="mt-5">
+            <a href="#projects" class="btn btn-outline-primary about-card me-2">View Projects</a>
+            <a href="#contact" class="btn btn-outline-primary  about-card">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container py-5">
+        <h2 class="section-title text-center mt-2">About Me</h2>
+
+        <div class="card p-4 about-card mt-3">
+            <p class="bi bi-dot">
+                I am a Diploma Computer Engineering student interested in
+                Web Development and Software Programming.
+            </p>
+            <p class="bi bi-dot">
+                I have developed projects such as a Portfolio Website,
+                Laptop Comparison Website, and Calculator Application,
+                which have helped me strengthen my front-end development skills.
+            </p>
+            <p class="bi bi-dot">
+                I am constantly learning new technologies and improving my
+                problem-solving abilities to become a skilled Full-Stack Developer.
+                My goal is to build innovative and efficient digital solutions
+                that provide a great user experience.
+            </p>
+            <p class="bi bi-dot">
+                My projects have helped me gain practical experience in responsive web
+                design, user interface development, and website optimization. I believe
+                in creating websites that are not only attractive but also functional,
+                accessible, and easy to use.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container py-5">
+        <h2 class="text-center section-title mt-2">Skills / Programming Languages</h2>
+        <div class="row g-4 text-center">
+
+            <div class="col-md-6">
+                <div class="card p-4 about-card">
+                    <i class="bi bi-filetype-html display-3"></i>
+                    <h5 class="mt-3">Created basic programs and websites using HTML</h5>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-4 about-card">
+                    <i class="bi bi-filetype-css display-3"></i>
+                    <h5 class="mt-3">Designed and styled websites using various types of CSS</h5>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-4 about-card">
+                    <i class="bi bi-bootstrap-fill display-3"></i>
+                    <h5 class="mt-3">Created basic to moderate programs and websites using Bootstrap</h5>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card p-4 about-card">
+                    <i class="bi bi-filetype-js display-3"></i>
+                    <h5 class="mt-3">Created logics and programs for various websites using JavaScript</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container py-5">
+        <h2 class="text-center section-title">Projects</h2>
+
+        <div class="row">
+
+            <!-- Portfolio Website -->
+            <div class="col-md-4">
+                <div class="card about-card h-100">
+                    <img src="Images/portimg.png" class="card-img-top" alt="Portfolio Website Screenshot">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Portfolio Website</h4>
+                        <p class="card-text">
+                            Created using HTML, CSS and Bootstrap with responsive design.
+                        </p>
+
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal"
+                            onclick="showProject('Portfolio Website','Images/portimg.png')">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laptop Comparison Website -->
+            <div class="col-md-4">
+                <div class="card about-card h-100">
+                    <img src="Images/lp.png" class="card-img-top" alt="Laptop Comparison Website Screenshot">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Laptop Comparison Website</h4>
+                        <p class="card-text">
+                            Provides detailed laptop specifications and comparisons.
+                        </p>
+
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal"
+                            onclick="showProject('Laptop Comparison Website','Images/lp.png')">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calculator -->
+            <div class="col-md-4">
+                <div class="card about-card h-100">
+                    <img src="Images/calc.png" class="card-img-top" alt="Calculator Screenshot">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Calculator</h4>
+                        <p class="card-text">
+                            Basic calculator built using HTML, CSS and JavaScript.
+                        </p>
+
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal"
+                            onclick="showProject('Basis calculator website ','Images/calc.png')">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container py-5">
+        <h2 class="text-center mb-4 section-title">Achievements</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-4 text-center achievement-card">
+                    <i class="bi bi-trophy-fill display-4"></i>
+                    <h4 class="mt-2">92%</h4>
+                    <h5 class="mt-2">Academic Score</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 text-center achievement-card">
+                    <i class="bi bi-award-fill display-4"></i>
+                    <h4 class="mt-2">5+</h4>
+                    <h5 class="mt-2">Projects Completed</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 text-center achievement-card">
+                    <i class="bi bi-book-fill display-4"></i>
+                    <h4 class="mt-2">4+</h4>
+                    <h5 class="mt-2">Languages Learned</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- qualification -->
+    <section id="qualification" class="container py-5">
+        <h2 class="text-center mb-4 section-title">🎓 Qualifications</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-2 text-center achievement-card">
+                    <i class="bi bi-mortarboard-fill display-4 mb-3"></i>
+                    <h4 class="mt-3">Diploma in Computer Engineering</h4>
+                    <h5 class="mt-2">Shivaji Polytechnic College, Sangola</h5>
+                    <p class="mb-1"><strong>Percentage:</strong> 92%</p>
+                    <p><strong>Year:</strong> 2026 - Present</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 text-center achievement-card">
+                    <i class="bi bi-book-fill display-4"></i>
+                    <h4 class="mt-3">SSC (10th Standard)</h4>
+                    <h5 class="mt-2">Sangola Vidyamandir Prashala, Sangola</h5>
+                    <p class="mb-1"><strong>Percentage:</strong> 94%</p>
+                    <p><strong>Year:</strong> 2025</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-4 text-center achievement-card">
+                    <i class=" display-4"></i>
+                    <img src="Images/codexlogo.png" alt="Codexlabz technologies Logo" class="p-4 mb-4">
+                    <h4 class="mt-3">Codexlabz technologies</h4>
+                    <h5 class="mt-2">Completed Internship</h5>
+                    <p><strong>Year:</strong> 2026</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="container py-5">
+        <h2 class="text-center section-title">📄 My Resume</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card resume-card">
+                    <div class="card-body text-center p-5">
+                        <!-- Resume Icon -->
+                        <i class="bi bi-file-earmark-pdf-fill display-1 mb-3"></i>
+
+                        <h3 class="mb-3">Mohit Shinde</h3>
+                        <p class="text-muted mb-4">Diploma Computer Engineering Student</p>
+
+                        <!-- Resume Details -->
+                        <div class="row text-start mt-4">
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="bi bi-mortarboard-fill text-primary me-2"></i>Education</h6>
+                                <p class="small mb-1"><strong>Diploma in Computer Engineering</strong></p>
+                                <p class="small text-muted">Shivaji Polytechnic College, Sangola</p>
+                                <p class="small text-muted">92% | 2026 - Present</p>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="bi bi-award-fill text-primary me-2"></i>Skills</h6>
+                                <span class="badge bg-primary me-1 mb-1">HTML</span>
+                                <span class="badge bg-primary me-1 mb-1">CSS</span>
+                                <span class="badge bg-primary me-1 mb-1">Bootstrap</span>
+                                <span class="badge bg-primary me-1 mb-1">JavaScript</span>
+                                <span class="badge bg-primary me-1 mb-1">C Programming</span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="bi bi-briefcase-fill text-primary me-2"></i>Experience</h6>
+                                <p class="small mb-1"><strong>Internship</strong></p>
+                                <p class="small text-muted">Codexlabz Technologies - 2026</p>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="bi bi-folder-fill text-primary me-2"></i>Projects</h6>
+                                <p class="small mb-1">Portfolio Website</p>
+                                <p class="small mb-1">Laptop Comparison Website</p>
+                                <p class="small mb-1">Calculator Application</p>
+                            </div>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+                            <!-- View Resume Button -->
+                            <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#resumeModal">
+                                <i class="bi bi-eye me-2"></i>View Resume
+                            </button>
+
+                            <!-- Download Button -->
+                            <a href="Images/resume.pdf" class="btn btn-primary btn-lg" download>
+                                <i class="bi bi-download me-2"></i>Download Resume (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Modal (PDF Viewer) -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">📄 Mohit Shinde - Resume</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <!-- PDF Viewer -->
+                    <div class="resume-viewer">
+                        <iframe src="Images/resume.pdf" width="100%" height="600px" frameborder="0">
+                        </iframe>
+                    </div>
+
+                    <!-- Fallback message if PDF doesn't load -->
+                    <div class="text-center p-4 d-none" id="pdfFallback">
+                        <i class="bi bi-file-earmark-pdf-fill display-1 text-danger"></i>
+                        <h4 class="mt-3">Unable to display PDF</h4>
+                        <p class="text-info">Click the button below to download the resume.</p>
+                        <a href="Images/resume.pdf" class="btn btn-primary" download>
+                            <i class="bi bi-download me-2"></i>Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="Images/resume.pdf" class="btn btn-primary" download>
+                        <i class="bi bi-download me-2"></i>Download PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- social -->
+    <section id="social" class="container py-5">
+        <h2 class="text-center section-title">Connect With Me</h2>
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://instagram.com/Xdevilpr0" class="social-card" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                    <h5>Instagram</h5>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohitshinde209@gmail.com" class="social-card"
+                    target="_blank">
+                    <i class="bi bi-envelope-fill"></i>
+                    <h5>Email</h5>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://wa.me/8956304399" class="social-card" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                    <h5>WhatsApp</h5>
+                </a>
+
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://github.com/mohitshinde209" class="social-card" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <h5>GitHub</h5>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <div id="contact" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 shadow mt-4 p-3 mb-4">
+                <h2 class="text-center section-title">Contact Us </h2>
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <label for="">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div>
+
+                    <div class="col-lg-12 mt-2">
+                        <label for="">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="sample@gmail.com">
+                    </div>
+
+                    <div class="col-lg-12 mt-4">
+                        <label for="message">Message</label><br>
+                        <textarea id="message" rows="4" class="form-control"
+                            placeholder="Message that you want to send...."></textarea>
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <label id="captchaQuestion"></label>
+                        <input type="number" id="captchaAnswer" class="form-control" placeholder="Enter Answer">
+                    </div>
+                    <div class="mb-2 col-lg-3 mt-3">
+                        <button type="button" class="btn btn-info w-100" onclick="sendWhatsApp()">
+                            Message
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <a href="#hero" class="top-btn">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+
+        <div class="container py-5">
+
+            <div class="row">
+
+                <!-- About -->
+                <div class="col-lg-4 mb-4">
+                    <h3 class="fw-bold">
+                        <i class="bi bi-stars text-info"></i>
+                        Mohit Shinde
+                    </h3>
+
+                    <p class="mt-3">
+                        Diploma Computer Engineering Student passionate about
+                        Web Development, UI Design and creating responsive websites.
+                    </p>
+
+                    <p class="text-info mb-0">
+                        Building Modern & Creative Web Experiences.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-4 mb-4">
+
+                    <h4 class="mb-3">Quick Links</h4>
+
+                    <ul class="list-unstyled">
+
+                        <li><a href="#hero"><i class="bi bi-house-fill me-2"></i>Home</a></li>
+                        <li><a href="#about"><i class="bi bi-person-fill me-2"></i>About</a></li>
+                        <li><a href="#skills"><i class="bi bi-code-square me-2"></i>Skills</a></li>
+                        <li><a href="#projects"><i class="bi bi-folder-fill me-2"></i>Projects</a></li>
+                        <li><a href="#qualification"><i class="bi bi-award-fill me-2"></i>Qualifications</a></li>
+                        <li><a href="#contact"><i class="bi bi-envelope-fill me-2"></i>Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-4">
+
+                    <h4 class="mb-3">Contact</h4>
+
+                    <p>
+                        <i class="bi bi-envelope-fill me-2"></i>
+                        mohitshinde209@gmail.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone-fill me-2"></i>
+                        +91 8956304399
+                    </p>
+
+                    <p>
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        Sangola, Maharashtra
+                    </p>
+
+                    <div class="footer-social mt-4">
+
+                        <a href="https://instagram.com/Xdevilpr0" target="_blank">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/mohitshinde209" target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+
+                        <a href="https://wa.me/8956304399" target="_blank">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+
+                        <a href="mailto:mohitshinde209@gmail.com">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+
+                <p class="mb-1">
+                    © 2026 <strong>Mohit Shinde</strong>. All Rights Reserved.
+                </p>
+
+                <small>
+                    Made with using HTML, CSS & Bootstrap
+                </small>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        // ======== NAVBAR AUTO-CLOSE ON MOBILE (FIXED) ========
+        // Method 1: Using Bootstrap's built-in collapse
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(function (link) {
+            link.addEventListener('click', function () {
+                var navbarCollapse = document.getElementById('navbarNav');
+                if (navbarCollapse.classList.contains('show')) {
+                    var bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                        toggle: true
+                    });
+                }
+            });
+        });
+
+        // ======== CAPTCHA ========
+        let num1 = Math.floor(Math.random() * 10) + 1;
+        let num2 = Math.floor(Math.random() * 10) + 1;
+
+        document.getElementById("captchaQuestion").innerHTML =
+            `Captcha: What is ${num1} + ${num2}?`;
+
+        // ======== SEND WHATSAPP ========
+        function sendWhatsApp() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+            let captcha = document.getElementById("captchaAnswer").value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill all fields.");
+                return;
+            }
+
+            if (parseInt(captcha) !== (num1 + num2)) {
+                alert("Incorrect Captcha!");
+                return;
+            }
+
+            let text =
+                `*Portfolio Contact Form*
+
+Name: ${name}
+Email: ${email}
+
+Message:
+${message}`;
+
+            let phone = "8956304399";
+
+            window.open(
+                `https://wa.me/${phone}?text=${encodeURIComponent(text)}`,
+                "_blank"
+            );
+        }
+
+        // ======== SHOW PROJECT IN MODAL ========
+        function showProject(title, image) {
+            document.getElementById("modalTitle").innerText = title;
+            document.getElementById("modalImage").src = image;
+        }
+    </script>
+
+
+    <!-- Project Screenshot Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Project Screenshot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" class="img-fluid rounded" alt="Project Screenshot">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
